@@ -15,10 +15,15 @@ Drivers: https://www.parallax.com/downloads/parallax-usb-driver-installer
 ## Tests
 
 Hardware: Parallax PropStick 1.2
+https://www.parallax.com/product/32210
+
 Datasheet: https://www.parallax.com/sites/default/files/downloads/32210-PropStick-USB-1.2.pdf
 
 For tests I am referring to the Parallax manual:
 https://www.parallax.com/sites/default/files/downloads/32306-PE-Lab-USB-Setup-v2.0.pdf
+
+Programming the Parallax Propeller using Machine Language:
+https://www.cp.eng.chula.ac.th/~piak/project/propeller/machinelanguage.pdf
 
 ## Contributors
 
