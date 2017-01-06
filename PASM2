@@ -1,0 +1,13 @@
+PUB ex01
+ cognew(@ex01A, 0)
+DAT
+ ORG 0
+ex01A
+ MOV DIRA, #$FF '(Cell 0) Output to I/O 0 to 7
+ MOV pattern, #0 '(Cell 1) Clear a “registers”
+loop
+ MOV OUTA, pattern '(Cell 2) Output the pattern to P0..P7
+ ADD pattern, #1 '(Cell 3) Increment the „register“
+ JMP #loop '(Cell 4) repeat loop
+pattern LONG $AAAAAAAA '(Cell 5)
+ FIT 496 
